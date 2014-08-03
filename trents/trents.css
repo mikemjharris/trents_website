@@ -373,6 +373,21 @@ width: 200px;
 
 }
 
+.ui-widget{
+  width: 215 !important;
+}
+
+#OT_timeList .OT_navListItem, #OT_partyList .OT_navListItem {
+  width: 100px !important;
+}
+#OT_timeList li a.OT_navLink, #OT_partyList li a.OT_navLink {
+  text-align: left !important;
+}
+  #OT_partyList li a.OT_navLink {
+  width: 200 !important;
+}
+
+
 #trents_menu #locu-nav {
   background: rgb(245,245,245);
 }
@@ -407,3 +422,4 @@ width: 200px;
   float: left;
   margin: 10px;
 }
+
