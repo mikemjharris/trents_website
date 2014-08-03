@@ -178,13 +178,13 @@ section p{
   position: relative;
   left: 0px;
   
-   -webkit-animation: myfirst 180s linear infinite;
+   -webkit-animation: myfirst 30s linear infinite;
    animation: myfirst 30s linear infinite;
 }
 
 @-webkit-keyframes myfirst {
     0% {left: 0px ;}
-    50% {left: -5000px;}
+    50% {left: -500px;}
     1000% {left: 0px ;}
 }
 
