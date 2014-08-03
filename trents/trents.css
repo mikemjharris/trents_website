@@ -4,25 +4,21 @@
 }
 
 body {
-  margin:0px;
   position: relative;
   background: white;
 }
 
 .main-title {
-  font-size: 65px;
-  letter-spacing: 70px;
+  font-size: 55px;
+  letter-spacing: 100px;
   width: 100%;
-  margin: 20px auto;
+  margin-top:  20px;
+  text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-style: italic;
-  color: #ececec;
-  text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+  position: relative;
+  left: 100px;
 }
+
 header {
   width: 100%;
   margin: 0;
@@ -39,17 +35,22 @@ h1 {
 
 nav {
   width: 100%;
-
   background: rgb(245,245,245);
-  border: 4px solid black;
+  /*border: 4px solid black;*/
   border-left: none;
   border-right: none;
-  padding: 0.2% 0%;
-  padding-left: 10%;
+  padding: 5px 0%;
+  margin: 5px 0;
+  /*padding-left: 10%;*/
   text-align: left;
-
+  clear: both;
 }
 
+/*nav ul, nav li {
+  padding: 0;
+  margin: 0;
+}
+*/
 .flow_right {
   /*float: right;*/
 }
@@ -63,15 +64,30 @@ nav {
 
 .pics img {
   /*width: 100%;*/
+   /*opacity: 0.7;*/
 }
 
 main {
-  display: inline;
+  /*display: inline;
   padding: 10%;
-  width: 80%;
+  width: 80%;*/
   /*font-size: 0px;*/
   text-align: center;
 
+}
+
+.header-title a {
+  text-decoration: none;
+  color: black;
+}
+#gallery img{
+  display: inline-block;
+  width: auto;
+  height: 200px;
+}
+
+#private_dining {
+  width: 100%;
 }
 .emph {
   font-weight: bold;
@@ -96,6 +112,10 @@ ul {
   font-family: 'Marck Script', cursive;
   text-align: center;
   font-size: 30px;
+  position: relative;
+  left: 50px;
+  padding-top: 20px;
+  display: inline-block;
 }
 
 #title img{
@@ -115,9 +135,9 @@ ul li a {
   text-decoration: none;
   color: black;
   margin: 0 20px;
-  /*font-family: 'League Script', cursive;*/
-  font-family: 'Cardo', serif;
-  font-style: italic;
+  font-family: 'Open Sans Condensed', sans-serif;
+  /*font-style: italic;*/
+  letter-spacing: 3px;
   
 }
 
@@ -151,8 +171,28 @@ section p{
 .sec_pics {
   width: 100%;
   display: inline-block;
+  overflow: hidden;
+}
+#scroll_pics {
+  width: 10000px;
+  position: relative;
+  left: 0px;
+  
+   -webkit-animation: myfirst 180s linear infinite;
+   animation: myfirst 30s linear infinite;
 }
 
+@-webkit-keyframes myfirst {
+    0% {left: 0px ;}
+    50% {left: -5000px;}
+    1000% {left: 0px ;}
+}
+
+@keyframes myfirst {
+    0% {left: 0px ;}
+    50% {left: -500px;}
+    1000% {left: 0px ;}
+}
 
 .content {
   display: inline-block;
@@ -163,10 +203,12 @@ section p{
 }
 
 section img {
-  height: 300px;
+  height: 400px;
+  margin-right: 200px;
   /*float: left;*/
   /*margin-right: 10px;*/
-
+  -webkit-filter: brightness(+145%); 
+  filter: brightness(+145%); 
 }
  #map_canvas {
   margin-top: 20px;
@@ -183,8 +225,9 @@ section img {
 .header-title{
   margin: 10px;
   /*font-family: 'Marck Script', cursive;*/
-  float: left;
-  text-align: left;
+  float: right;
+  text-align: right;
+  font-size: 14px;
 
 }
 
@@ -197,16 +240,34 @@ section img {
   width: 40px;
 }
 
+.twitter {
+  background: transparent url(./pics/twitter.png) scroll no-repeat left center;
+  background-size: cover;
+  z-index: 1000;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+#vacancies {
+  width: 300px;
+  margin: 10px auto;
+  display: inline-block;
+}
+
 .news {
   display: inline-block;
   width: 300px;
-  position: absolute;
-  bottom: 20px;
+  position: fixed;
+  bottom: 0px;
   padding: 5px;
   left: 39%;
   text-align: center;
   margin: 0 auto;
   background: #ECECEC;
+  color: black;
+  text-decoration: none;
   /*border: 1px solid black;*/
 }
 
@@ -223,4 +284,126 @@ input {
   text-align: center;
   margin: 20px auto;
   display: block;
+}
+
+
+#top-table {
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+#top-table #OT_form {
+  width: 100%;
+}
+#top-table .OT_wrapper {
+  border-top: 2px solid #42382c;
+  border-bottom: 2px solid #42382c;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+  background-color: white;
+  font-family: verdana,arial,helvetica,sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+#top-table .OT_list {
+  display: inline-block;
+  width: 960px;
+}
+#top-table .OT_day, #top-table .OT_time, #top-table .OT_party {
+margin: 10px;
+padding: 15px;
+border: none;
+/*background: none;*/
+/*background-position: -11px -5px;*/
+/*border-top: 2px solid #3c3429;*/
+/*border-bottom: 2px solid #433c33;*/
+list-style: none;
+display: inline-block;
+width: 200px;
+}
+
+#top-table .OT_day {
+  background-position: -11px -11px;
+}
+#top-table .OT_time {
+  background-position: -11px -61px;
+}
+
+#top-table .OT_party {
+    background-position: -11px -110px; 
+}
+
+
+#top-table .OT_header, #top-table h1 , #top-table h1 {
+  display: inline-block;
+  width: ;
+}
+
+#top-table .OT_searchTimeField, #top-table .OT_searchDateField, #top-table .OT_searchPartyField {
+  font-family: verdana,arial,helvetica,sans-serif;
+  /*background: #fff unicode-bidi: rl(../img/downarrow_gray.gif) no-repeat right 0;*/
+  color: #42382c;
+  font-weight: bold;
+  margin: 0;
+  border: 1px solid #3b1c00;
+  width: 130px;
+  height: 18px;
+  font-size: 12px;
+  font-style: normal;
+  padding: 1px 3px 2px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#top-table .OTButton {
+  background-image: none;
+  width: 200px;
+  border: 1px solid black;
+}
+
+#top-table a.OT_Find_a_Table:link {
+  background-image: none;
+  color: black;
+  text-shadow: none;
+
+}
+
+#trents_menu #locu-nav {
+  background: rgb(245,245,245);
+}
+
+#trents_menu .locu-widget-wrapper #locu-render-output #locu-nav li {
+  /*color: red;*/
+   /*-webkit-transition: font-size 0.2s;
+  transition: font-size 0.2s;*/
+}
+
+#trents_menu .locu-widget-wrapper #locu-render-output #locu-nav li:hover {
+ color: black;
+  /*font-size: 1.2em;*/
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+
+#trents_menu .locu-widget-wrapper #locu-render-output #locu-nav li.locu-active {
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  padding: 5px;
+}
+
+.menu {
+  padding: 20px;
+}
+
+#head_logo {
+  width: 150px;
+  float: left;
+  margin: 10px;
 }

@@ -1,6 +1,6 @@
-<?php include('Header.php'); ?>
+<?php include('./header.php'); ?>
 
-      <img id="private_dining" src="./pics/private_dining2.JPG" >
+      <img id="private_dining" src="./pics/private_dining2.jpg" >
 
 
 </body>

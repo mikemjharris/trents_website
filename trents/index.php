@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
-<?php include('Header.php'); ?>
+<?php include('./header.php'); ?>
+
 
 <section>
 
