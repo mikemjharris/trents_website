@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Trent's Cafe</title>
+  <title>Trents Cafe</title>
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Marck+Script' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
@@ -31,7 +31,7 @@
   
   <img id="head_logo" src="./pics/trentsbqsign.jpg" >
   <div class="main-title">TR3NTS</div>
-  
+
   <div id="title">
       <img src="./pics/crown.png" />
       A local neighbourhood restaurant in the heart of Clerkenwell
