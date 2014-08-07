@@ -373,8 +373,9 @@ width: 200px;
 
 }
 
+
 .ui-widget{
-  width: 215 !important;
+  width: 215px !important;
 }
 
 #OT_timeList .OT_navListItem, #OT_partyList .OT_navListItem {
@@ -384,7 +385,7 @@ width: 200px;
   text-align: left !important;
 }
   #OT_partyList li a.OT_navLink {
-  width: 200 !important;
+  width: 200px !important;
 }
 
 
