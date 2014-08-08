@@ -2,19 +2,21 @@
 
 <?php include('./header.php'); ?>
 
-
+  <img id="private_dining" src="./pics/private_dining2.jpg" >
 <section>
-
+  
    <div class="sec_pics">
+    
+
     <div id="scroll_pics">
       
-      <img src="./pics/trentsb&w.jpg" >
+      <!-- <img src="./pics/trentsb&w.jpg" >
 
 
       <img src="./pics/tretns_street.jpg" >
       <img src="./pics/black and white 8.jpg" >
       <img src="./pics/black and white 9.jpg" >
-      
+       -->
 
       
 

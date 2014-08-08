@@ -6,17 +6,25 @@
 body {
   position: relative;
   background: white;
+  padding: 0px;
+  margin: 0px;
 }
 
 .main-title {
   font-size: 55px;
+  font-weight: bold;
   letter-spacing: 100px;
   width: 100%;
-  margin-top:  20px;
+  display: block;
+  padding-left: 125px;
+  background: black;
+  color: white;
+  /*margin-top:  20px;*/
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
   position: relative;
-  left: 100px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 header {
@@ -35,7 +43,8 @@ h1 {
 
 nav {
   width: 100%;
-  background: rgb(245,245,245);
+  /*background: rgb(245,245,245);*/
+  background: black;
   /*border: 4px solid black;*/
   border-left: none;
   border-right: none;
@@ -44,6 +53,7 @@ nav {
   /*padding-left: 10%;*/
   text-align: left;
   clear: both;
+  
 }
 
 /*nav ul, nav li {
@@ -51,6 +61,38 @@ nav {
   margin: 0;
 }
 */
+
+nav ul li {
+  position: relative;
+}
+nav ul li ul {
+    display:none;
+    width: 250px;
+
+
+}
+
+nav ul li ul li {
+   background: rgb(245,245,245);
+    /*border: 1px solid black;*/
+    /*padding: 10px 0%;*/
+    display: inline-block;
+    float: left;
+    font-weight: none;
+    z-index: 1000;
+    /*width: 100px;*/
+}
+
+nav ul li:hover ul  {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.wine {
+  padding: 20px 200px;
+  text-align: center;
+}
 .flow_right {
   /*float: right;*/
 }
@@ -80,6 +122,9 @@ main {
   text-decoration: none;
   color: black;
 }
+#gallery {
+  text-align: center;
+}
 #gallery img{
   display: inline-block;
   width: auto;
@@ -107,15 +152,19 @@ ul {
   text-align: center;
   
 }
-
+.wine h2 {
+  padding-bottom: 0px;
+  padding-top: 30px;
+}
 #title {
   font-family: 'Marck Script', cursive;
   text-align: center;
   font-size: 30px;
   position: relative;
-  left: 50px;
-  padding-top: 20px;
+  /*left: 50px;*/
+  padding: 70px 0px;
   display: inline-block;
+  z-index: -200;
 }
 
 #title img{
@@ -133,16 +182,17 @@ ul li a {
   /*width: 75px;*/
   padding: 10px 20px;
   text-decoration: none;
-  color: black;
+  color: white;
   margin: 0 20px;
   font-family: 'Open Sans Condensed', sans-serif;
   /*font-style: italic;*/
   letter-spacing: 3px;
-  
+  transition: all 0.2s;
 }
 
 ul li a:hover {
-  background: #B8AD89;
+  background: white;
+  color: black;
 }
 
 section {
@@ -157,9 +207,9 @@ section {
 }
 span {
   font-size: 18px;
-  font-weight: bold;
-  font-family: 'Cardo', serif;
-  font-style: italic;
+  /*font-weight: bold;*/
+  /*font-family: 'Cardo', serif;*/
+  /*font-style: italic;*/
 }
 
 section p{
@@ -228,6 +278,9 @@ section img {
   float: right;
   text-align: right;
   font-size: 14px;
+  position: absolute;
+  right: 0px;
+
 
 }
 
@@ -254,6 +307,13 @@ section img {
   width: 300px;
   margin: 10px auto;
   display: inline-block;
+  float: left;
+}
+
+#vacancies_text, #vacancies_text ul {
+ text-align: left;
+ font-size: 16px;
+ list-style-type: circle;
 }
 
 .news {
@@ -422,5 +482,7 @@ width: 200px;
   width: 150px;
   float: left;
   margin: 10px;
+  position: absolute;
+  left: 0px;
 }
 

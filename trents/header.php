@@ -8,7 +8,7 @@
 
   <link rel="stylesheet  " href="reset.css" />
   <link rel="stylesheet" href="trents.css" />
-
+  <meta charset="utf-8">
   
   
 </head>
@@ -16,21 +16,23 @@
 <body>
 
 <header>
-  <div class="header-title">
+
+  <div class="main-title">TR3NTS</div>
+    <div class="header-title">
     90 Leather Lane, London, EC1N 7TT <br />
     <a href="mailto:info@tr3ntslondon.com">info@tr3ntslondon.com</a>  <br />
     Tel: 0207 4040130 <br />
     <div class="social-media">
       <a href="https://twitter.com/trentscafe"><img src="./pics/twitter.png" /></a>
-      <a href="https://www.facebook.com/"><img src="./pics/facebook.png" /></a>
+      <!-- <a href="https://www.facebook.com/"><img src="./pics/facebook.png" /></a> -->
       <!-- <a class="twitter" href="https://twitter.com/trentscafe"></a> -->
 
     </div>
    <!--  <a href="https://www.google.co.uk/maps/place/London+EC1N+7TT/@51.5213618,-0.1098565,17z/data=!4m2!3m1!1s0x48761b4e9492431f:0x8ef1f8e48f1ea6e4?hl=en" target="/blank">Map</a> -->
   </div>
+  <!-- <img id="head_logo" src="./pics/trentsbqsign.jpg" > -->
+  <img id="head_logo" src="./pics/header.jpg" >
   
-  <img id="head_logo" src="./pics/trentsbqsign.jpg" >
-  <div class="main-title">TR3NTS</div>
 
   <div id="title">
       <img src="./pics/crown.png" />
@@ -40,7 +42,12 @@
   <nav>
     <ul>
       <li><a href="/">at Tr<span>3</span>nts</a></li>
-      <li><a href="menu.php">Menu <!-- & Wine  --></a></li>
+      <li><a href="#">Menu <!-- & Wine  --></a>
+        <ul>
+          <li><a href="menu.php">Food</a></li>
+          <li><a href="wine.php">Wine</a></li>
+        </ul>  
+      </li>
       <li><a href="private_dining.php">Private Dining </a></li>
       <li><a href="gallery.php">Gallery</a></li>
       <li><a href="find_us.php">Find Us</a></li>
