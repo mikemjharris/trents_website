@@ -11,7 +11,7 @@ myMaps.load = function() {
   }
 
   var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions) ;
-  var contentString = '<img id="trentlogo" src="./pics/trents_logo.jpg" >'
+  var contentString = '<img alt="picture of trents" id="trentlogo" src="./pics/trents_logo.jpg" >'
 
   var infowindow = new google.maps.InfoWindow({
       content: contentString

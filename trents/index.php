@@ -2,7 +2,7 @@
 
 <?php include('./header.php'); ?>
 
-  <img id="private_dining" src="./pics/private_dining2.jpg" >
+  <img alt="picture of trents" id="private_dining" src="./pics/private_dining2.jpg" >
 <section>
   
    <div class="sec_pics">
@@ -10,32 +10,32 @@
 
     <div id="scroll_pics">
       
-      <!-- <img src="./pics/trentsb&w.jpg" >
+      <!-- <img alt="picture of trents" src="./pics/trentsb&w.jpg" >
 
 
-      <img src="./pics/tretns_street.jpg" >
-      <img src="./pics/black and white 8.jpg" >
-      <img src="./pics/black and white 9.jpg" >
+      <img alt="picture of trents" src="./pics/tretns_street.jpg" >
+      <img alt="picture of trents" src="./pics/black and white 8.jpg" >
+      <img alt="picture of trents" src="./pics/black and white 9.jpg" >
        -->
 
       
 
-      <!-- <img src="./pics/black and wite 7.jpg" > -->
+      <!-- <img alt="picture of trents" src="./pics/black and wite 7.jpg" > -->
       
     </div>
   </div>
-      <!-- <img src="./pics/food7_halloumi.jpg" >       
-      <img src="./pics/food2.jpg" >
-      <img src="./pics/trents_tea.jpg" > 
-      <img src="./pics/food8_salad.jpg" >
-      <img src="./pics/food1.jpg" > 
+      <!-- <img alt="picture of trents" src="./pics/food7_halloumi.jpg" >       
+      <img alt="picture of trents" src="./pics/food2.jpg" >
+      <img alt="picture of trents" src="./pics/trents_tea.jpg" > 
+      <img alt="picture of trents" src="./pics/food8_salad.jpg" >
+      <img alt="picture of trents" src="./pics/food1.jpg" > 
        
        
-      <img src="./pics/food3.jpg" > 
+      <img alt="picture of trents" src="./pics/food3.jpg" > 
       
-       <img src="./pics/food4.jpg" >  
-      <img src="./pics/food5.jpg" > 
-      <img src="./pics/food6.jpg" >
+       <img alt="picture of trents" src="./pics/food4.jpg" >  
+      <img alt="picture of trents" src="./pics/food5.jpg" > 
+      <img alt="picture of trents" src="./pics/food6.jpg" >
        -->
       
       
