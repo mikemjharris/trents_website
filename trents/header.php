@@ -48,8 +48,8 @@
           <li><a href="wine.php">Wine</a></li>
         </ul>  
       </li>
-      <li><a href="private_dining.php">Private Dining </a></li>
-      <li><a href="gallery.php">Gallery</a></li>
+      <li><a href="meeting_room.php">Meeting Room</a></li>
+      <li><a href="events.php">Events</a></li>
       <li><a href="find_us.php">Find Us</a></li>
       <li><a href="vacancies.php">Vacancies</a></li>
     </ul>
