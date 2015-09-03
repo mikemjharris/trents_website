@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="trents.css" />
   <meta charset="utf-8">
   <meta name="Trents Cafe" content="Local family run cafe in the heart of Clerkenwell">
-  
+
 </head>
 
 <body>
@@ -32,21 +32,21 @@
   </div>
   <!-- <img alt="picture of trents" id="head_logo" src="./pics/trentsbqsign.jpg" > -->
   <img alt="picture of trents" id="head_logo" src="./pics/header.jpg" >
-  
+
 
   <div id="title">
       <img alt="picture of trents" src="./pics/crown.png" />
-      A local neighbourhood restaurant in the heart of Clerkenwell
+      A local neighbourhood cafe in the heart of Clerkenwell
       <img alt="picture of trents" src="./pics/crown.png" />
     </div>
   <nav>
     <ul>
       <li><a href="/">at Tr<span>3</span>nts</a></li>
-      <li><a href="#">Menu <!-- & Wine  --></a>
-        <ul>
+      <li><a href="menu.php">Menu <!-- & Wine  --></a>
+       <!--  <ul>
           <li><a href="menu.php">Food</a></li>
           <li><a href="wine.php">Wine</a></li>
-        </ul>  
+        </ul>   -->
       </li>
       <li><a href="meeting_room.php">Meeting Room</a></li>
       <li><a href="events.php">Events</a></li>
@@ -59,5 +59,5 @@
  <div id="top-table">
     <script type="text/javascript" src="https://www.opentable.co.uk/frontdoor/default.aspx?rid=103437&restref=103437&bgcolor=F6F6F3&titlecolor=0F0F0F&subtitlecolor=0F0F0F&btnbgimage=https://www.opentable.co.uk/frontdoor/img/ot_btn_red.png&otlink=FFFFFF&icon=dark&mode=short&hover=1"></script>
 
-    
+
   </div>
