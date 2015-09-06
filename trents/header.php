@@ -42,7 +42,7 @@
   <nav>
     <ul>
       <li><a href="who-we-are.php">who we are</a></li>
-      <li><a href="menu.php">what we do</a>
+      <li><a href="what-we-do.php">what we do</a>
       </li>
       <li><a href="meeting_room.php">street food</a></li>
       <li><a href="menu.php">menu</a></li>
