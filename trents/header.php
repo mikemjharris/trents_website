@@ -47,7 +47,7 @@
       <li><a href="street-food.php">street food</a></li>
       <li><a href="menu.php">menu</a></li>
       <li><a href="events.php">events</a></li>
-      <li><a href="events.php">contact us</a></li>
+      <li><a href="find_us.php">contact us</a></li>
 
     </ul>
   </nav>
