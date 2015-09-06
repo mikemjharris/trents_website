@@ -53,8 +53,4 @@
   </nav>
 </header>
 
- <div id="top-table">
-    <script type="text/javascript" src="https://www.opentable.co.uk/frontdoor/default.aspx?rid=103437&restref=103437&bgcolor=F6F6F3&titlecolor=0F0F0F&subtitlecolor=0F0F0F&btnbgimage=https://www.opentable.co.uk/frontdoor/img/ot_btn_red.png&otlink=FFFFFF&icon=dark&mode=short&hover=1"></script>
 
-
-  </div>
