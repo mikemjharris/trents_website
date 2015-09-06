@@ -41,17 +41,14 @@
     </div>
   <nav>
     <ul>
-      <li><a href="/">at Tr<span>3</span>nts</a></li>
-      <li><a href="menu.php">Menu <!-- & Wine  --></a>
-       <!--  <ul>
-          <li><a href="menu.php">Food</a></li>
-          <li><a href="wine.php">Wine</a></li>
-        </ul>   -->
+      <li><a href="who-we-are.php">who we are</a></li>
+      <li><a href="menu.php">what we do</a>
       </li>
-      <li><a href="meeting_room.php">Meeting Room</a></li>
-      <li><a href="events.php">Events</a></li>
-      <li><a href="find_us.php">Find Us</a></li>
-      <li><a href="vacancies.php">Vacancies</a></li>
+      <li><a href="meeting_room.php">street food</a></li>
+      <li><a href="menu.php">menu</a></li>
+      <li><a href="events.php">events</a></li>
+      <li><a href="events.php">contact us</a></li>
+
     </ul>
   </nav>
 </header>
