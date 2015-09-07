@@ -20,6 +20,7 @@
 
   <h3>Our coffee</h3>
 
+  <img id="coffee" src="/pics/coffee.jpg" alt="coffee" />
   <p>
     We have taken our coffee extremely seriously.
   </p>
